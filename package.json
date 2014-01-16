@@ -1,12 +1,21 @@
 {
-  "name": "pitts-neurons",
-  "version": "0.0.0",
-  "description": "ERROR: No README.md file found!",
+  "name": "pitts",
+  "version": "0.1.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "grunt",
+    "prepublish": "grunt",
     "test": "mocha test/**/*.coffee"
   },
-  "repository": "",
-  "author": "",
-  "license": "BSD"
+  "repository": "https://github.com/gingerhendrix/pitts.git",
+  "author": "Gareth Andrew <gingerhendrix@gmail.com>",
+  "license": "BSD",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "matchdep": "~0.3.0",
+    "grunt-coffeelint": "0.0.8",
+    "grunt-contrib-coffee": "~0.8.0",
+    "grunt-contrib-watch": "~0.5.3"
+  }
 }
